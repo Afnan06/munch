@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/login">
+
+
+    <TextView
+        android:id="@+id/WEL"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="50dp"
+        android:fontFamily="casual"
+        android:gravity="center"
+        android:text="Here's Your Cart"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="@color/yellow"
+
+        android:textSize="45dp"
+        tools:layout_editor_absoluteX="54dp"
+        tools:layout_editor_absoluteY="338dp" />
+    <Button
+        android:id="@+id/order"
+        android:layout_width="154dp"
+        android:layout_height="53dp"
+
+
+        android:layout_centerHorizontal="true"
+
+
+        android:layout_marginStart="138dp"
+        android:layout_marginLeft="138dp"
+        android:layout_marginTop="350dp"
+
+
+
+        android:background="@color/yellow"
+        android:text="Confirm Order"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="@color/red" />
+
+
+
+
+
+
+
+
+</LinearLayout>

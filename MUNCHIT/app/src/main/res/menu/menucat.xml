@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/category_menu"
+        android:icon="@drawable/ic_menu_camera"
+        android:title="Categories"
+        app:showAsAction="ifRoom">
+        <menu>
+            <item android:id="@+id/category"
+                android:title="Categories"></item>
+        </menu>
+
+    </item>
+
+
+</menu>
